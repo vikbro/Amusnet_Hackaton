@@ -34,4 +34,4 @@ jobs:
         env:
           BUTLER_API_KEY: ${{ secrets.ITCHIO_TOKEN }}
         run: |
-          butler push build/ your-itch-username/amusnet-hackaton:web
+          butler push build/ your-itch-username/your-game-name:html5
